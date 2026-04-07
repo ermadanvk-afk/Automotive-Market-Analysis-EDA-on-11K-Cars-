@@ -1,13 +1,14 @@
 # Automotive-Market-Analysis-EDA-on-11K-Cars-
 
 🚗 Automotive Market Analysis (EDA on 11K+ Cars)<br>
-📌 Overview
+
+📌 Overview  <br>
 
 This project performs Exploratory Data Analysis (EDA) on a dataset of 11,914 car listings (1990–2017) to uncover patterns in pricing, performance, fuel efficiency, and market trends.
 
 The goal is to extract actionable insights that help understand how different factors influence car prices and market positioning.
 
-📂 Dataset Information
+📂 Dataset Information <br>
 File: data.csv
 Rows: 11,914
 Columns: 16
@@ -18,7 +19,8 @@ Transmission Type, Driven Wheels
 Vehicle Size, Vehicle Style
 Highway MPG, City MPG
 Popularity, MSRP (Price)
-🎯 Objectives
+
+🎯 Objectives <br>
 
 The analysis is driven by the following key questions:
 
@@ -28,7 +30,7 @@ How has fuel efficiency evolved over time?
 Does transmission type (Manual vs Automatic) impact price and popularity?
 How does price vary across vehicle sizes and styles?
 
-🛠️ Tech Stack
+🛠️ Tech Stack <br>
 Language: Python
 Libraries:
 Pandas (Data Manipulation)
@@ -36,14 +38,14 @@ NumPy (Numerical Operations)
 Matplotlib & Seaborn (Visualization)
 Plotly (Interactive Visualization)
 
-🧹 Data Cleaning
+🧹 Data Cleaning <br>
 Removed missing values in critical columns:
 Engine HP
 Engine Cylinders
 Created a transformed feature:
 log_MSRP → to handle skewness in price distribution
 
-📊 Key Visualizations & Insights
+📊 Key Visualizations & Insights <br>
 1. MSRP Distribution
 Highly right-skewed distribution
 Majority of cars priced between $20K–$60K
@@ -64,7 +66,7 @@ Budget cars
 Mid-range vehicles
 Luxury segment
 
-📈 Key Takeaways
+📈 Key Takeaways<br>
 Price is heavily influenced by engine performance and vehicle size
 Luxury brands focus on high-price, high-performance segments
 Mass-market brands dominate in quantity, not price
