@@ -1,5 +1,6 @@
 # Automotive-Market-Analysis-EDA-on-11K-Cars-
-🚗 Automotive Market Analysis (EDA on 11K+ Cars)
+
+🚗 Automotive Market Analysis (EDA on 11K+ Cars)<br>
 📌 Overview
 
 This project performs Exploratory Data Analysis (EDA) on a dataset of 11,914 car listings (1990–2017) to uncover patterns in pricing, performance, fuel efficiency, and market trends.
