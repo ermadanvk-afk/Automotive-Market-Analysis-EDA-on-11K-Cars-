@@ -26,6 +26,7 @@ Which car brands dominate the market, and are they also the most expensive?
 How has fuel efficiency evolved over time?
 Does transmission type (Manual vs Automatic) impact price and popularity?
 How does price vary across vehicle sizes and styles?
+
 🛠️ Tech Stack
 Language: Python
 Libraries:
@@ -33,12 +34,14 @@ Pandas (Data Manipulation)
 NumPy (Numerical Operations)
 Matplotlib & Seaborn (Visualization)
 Plotly (Interactive Visualization)
+
 🧹 Data Cleaning
 Removed missing values in critical columns:
 Engine HP
 Engine Cylinders
 Created a transformed feature:
 log_MSRP → to handle skewness in price distribution
+
 📊 Key Visualizations & Insights
 1. MSRP Distribution
 Highly right-skewed distribution
@@ -59,6 +62,7 @@ Clear clustering of:
 Budget cars
 Mid-range vehicles
 Luxury segment
+
 📈 Key Takeaways
 Price is heavily influenced by engine performance and vehicle size
 Luxury brands focus on high-price, high-performance segments
